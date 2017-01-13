@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/tab"
+    android:layout_height="65dp"
+    android:background="#6a5acd"
+    >
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+
+        >
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/homer"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主页"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/two"
+    android:layout_width="45dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="45dp"
+    android:layout_toRightOf="@id/one"
+    >
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mine"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/three"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_toRightOf="@id/two"
+        >
+        <ImageView
+            android:id="@+id/fly"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fly"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="飞机"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/four"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_toRightOf="@id/three"
+        >
+        <ImageView
+            android:id="@+id/set"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/set"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</RelativeLayout>
